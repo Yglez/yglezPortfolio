@@ -3,13 +3,6 @@ import { NavLink } from "react-router-dom";
 import yglez from "../yglez.JPG";
 
 class Navbar extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      homePage: true,
-      contactPage: false
-    };
-  }
   render() {
     return (
       <section>
@@ -36,11 +29,11 @@ class Navbar extends Component {
           <div className="collapse navbar-collapse" id="navLinks">
             <ul className="navbar-nav mr-auto">
               <li className="nav-item ">
-                <NavLink className="nav-link active" to="/">
+                <NavLink className="nav-link" to="/">
                   Home
                 </NavLink>
               </li>
-              <li className="nav-item">
+              <li className="nav-item" onClick={this.handleOnClick}>
                 <NavLink className="nav-link" to="/work">
                   Work
                 </NavLink>
