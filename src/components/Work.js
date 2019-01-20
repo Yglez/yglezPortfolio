@@ -38,7 +38,7 @@ class Work extends Component {
           </div>
 
           <div className="item">
-            <a href="https://nostalgic-montalcini-f399dc.netlify.com/movie">
+            <a href="https://nostalgic-montalcini-f399dc.netlify.com/movies">
               <img
                 src={kidsMovies}
                 alt="projects"
@@ -46,7 +46,7 @@ class Work extends Component {
               />
             </a>
             <a
-              href="https://nostalgic-montalcini-f399dc.netlify.com/movie"
+              href="https://nostalgic-montalcini-f399dc.netlify.com/movies"
               className="btn-light"
             >
               <FontAwesomeIcon className="icon0x" icon={["fas", "eye"]} />
@@ -78,7 +78,7 @@ class Work extends Component {
             </a>
           </div>
           <div className="item">
-            <a href="https://nostalgic-montalcini-f399dc.netlify.com">
+            <a href="https://nostalgic-montalcini-f399dc.netlify.com/">
               <img
                 src={restaurantsNYC}
                 alt="projects"
@@ -86,7 +86,7 @@ class Work extends Component {
               />
             </a>
             <a
-              href="https://nostalgic-montalcini-f399dc.netlify.com"
+              href="https://nostalgic-montalcini-f399dc.netlify.com/"
               className="btn-light"
             >
               <FontAwesomeIcon className="icon0x" icon={["fas", "eye"]} />

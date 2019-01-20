@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { NavLink } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import kidsMovies from "../kidsMovies2.JPG";
-import toDo from "../toDo2.JPG";
+import restaurantsNYC from "../restaurantsNYC2.JPG";
 import businessSolutions from "../businessSolutions2.JPG";
 
 class Home extends Component {
@@ -56,7 +56,7 @@ class Home extends Component {
           </div>
 
           <div className="item">
-            <a href="https://nostalgic-montalcini-f399dc.netlify.com/movie">
+            <a href="https://nostalgic-montalcini-f399dc.netlify.com/movies">
               <img
                 src={kidsMovies}
                 alt="projects"
@@ -64,7 +64,7 @@ class Home extends Component {
               />
             </a>
             <a
-              href="https://nostalgic-montalcini-f399dc.netlify.com/movie"
+              href="https://nostalgic-montalcini-f399dc.netlify.com/movies"
               className="btn-light"
             >
               <FontAwesomeIcon className="icon0x" icon={["fas", "eye"]} />
@@ -75,21 +75,20 @@ class Home extends Component {
               GitHub
             </a>
           </div>
-
           <div className="item">
-            <a href="https://nostalgic-montalcini-f399dc.netlify.com/todo">
+            <a href="https://nostalgic-montalcini-f399dc.netlify.com/">
               <img
-                src={toDo}
+                src={restaurantsNYC}
                 alt="projects"
                 style={{ width: "18rem", height: "18rem" }}
               />
             </a>
             <a
-              href="https://nostalgic-montalcini-f399dc.netlify.com/todo"
+              href="https://nostalgic-montalcini-f399dc.netlify.com/"
               className="btn-light"
             >
               <FontAwesomeIcon className="icon0x" icon={["fas", "eye"]} />
-              ToDo App
+              NYC Restaurants
             </a>
             <a href="https://github.com/Yglez/reactPj" className="btn-dark">
               <i className="fab fa-github">GitHub</i>
