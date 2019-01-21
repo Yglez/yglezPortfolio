@@ -5,20 +5,20 @@ class WorkCard extends Component {
   render() {
     const { projectSite, projectName, img, githubLink } = this.props.data;
     return (
-      <div className="col-md-3">
-        <div className="projects">
-          <div className="card">
-            <img src={img} className="card-img-top" alt="projects" />
-            <div className="card-body">
-              <a href={projectSite} className="btn-light">
-                <FontAwesomeIcon className="icon0x" icon={["fas", "eye"]} />
-                {projectName}
-              </a>
+      <div className="card">
+        <img src={img} className="card-img-top" alt="projects" />
+        <div className="card-body">
+          <a href={projectSite} className="btn-light">
+            <FontAwesomeIcon className="icon0x" icon={["fas", "eye"]} />
+            {projectName}
+          </a>
+          <div className="card-footer">
+            <small className="text-muted">
               <a href={githubLink} className="btn-dark">
                 <FontAwesomeIcon className="icon0x" icon={["fab", "github"]} />
                 GitHub
               </a>
-            </div>
+            </small>
           </div>
         </div>
       </div>

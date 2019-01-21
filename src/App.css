@@ -211,6 +211,31 @@ main#home h1 {
 .card-body {
   padding: 0 !important;
 }
+.card-footer {
+  padding: 0 !important;
+}
+span.text-info > a {
+  color: rgb(23, 162, 184);
+}
+span.text-info > a:hover {
+  font-size: 2.1rem;
+  text-decoration: underline;
+}
+.contactSvg {
+  color: rgb(23, 162, 184);
+}
+.contactSvg:hover {
+  font-size: 2.2rem;
+}
+.card {
+  margin: 1.1rem 0;
+  max-width: 250px;
+  max-height: 300px;
+}
+.card-img-top {
+  max-width: 250px;
+  max-height: 200px;
+}
 
 @media screen and (min-width: 1171px) {
 }

@@ -13,19 +13,22 @@ class Contact extends Component {
           <div className="boxes">
             <div>
               <span className="text-info icons">Twitter: </span>
-              <a href="https://twitter.com/Yesglez2">
+              <a className="contactSvg" href="https://twitter.com/Yesglez2">
                 <FontAwesomeIcon icon={["fab", "twitter"]} />
               </a>
             </div>
             <div>
               <span className="text-info icons">LinkedIn: </span>
-              <a href="https://www.linkedin.com/in/yglez/">
+              <a
+                className="contactSvg"
+                href="https://www.linkedin.com/in/yglez/"
+              >
                 <FontAwesomeIcon icon={["fab", "linkedin"]} />
               </a>
             </div>
             <div>
               <span className="text-info icons">GitHub: </span>
-              <a href="https://github.com/Yglez">
+              <a className="contactSvg" href="https://github.com/Yglez">
                 <FontAwesomeIcon icon={["fab", "github"]} />
               </a>
             </div>
