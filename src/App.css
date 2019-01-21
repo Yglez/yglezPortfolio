@@ -227,14 +227,9 @@ span.text-info > a:hover {
 .contactSvg:hover {
   font-size: 2.2rem;
 }
-.card {
-  margin: 1.1rem 0;
-  max-width: 250px;
-  max-height: 300px;
-}
-.card-img-top {
-  max-width: 250px;
-  max-height: 200px;
+.img-card-top {
+  width: 100%;
+  border: 10px rgb(205, 212, 219) double;
 }
 
 @media screen and (min-width: 1171px) {
