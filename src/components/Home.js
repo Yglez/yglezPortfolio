@@ -1,8 +1,7 @@
 import React, { Component } from "react";
 import { NavLink } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import restaurantsNYC from "../restaurantsNYC2.JPG";
-import businessSolutions from "../businessSolutions2.JPG";
+import Work from "./Work";
 
 class Home extends Component {
   render() {
@@ -32,53 +31,7 @@ class Home extends Component {
             My <span className="text-info">Work</span>
           </h1>
           <h2 className="sm-heading">Check out some of my projects...</h2>
-          <div className="projects">
-            <div className="item">
-              <a href="https://nostalgic-cori-603c17.netlify.com/">
-                <img
-                  src={businessSolutions}
-                  alt="projects"
-                  style={{ width: "18rem", height: "18rem" }}
-                />
-              </a>
-              <a
-                href="https://nostalgic-cori-603c17.netlify.com/"
-                className="btn-light"
-              >
-                <FontAwesomeIcon className="icon0x" icon={["fas", "eye"]} />
-                Business Solutions
-              </a>
-              <a
-                href="https://github.com/Yglez/deecalcestimate"
-                className="btn-dark"
-              >
-                <FontAwesomeIcon className="icon0x" icon={["fab", "github"]} />
-                GitHub
-              </a>
-            </div>
-            <div className="item">
-              <a href="https://nostalgic-montalcini-f399dc.netlify.com/">
-                <img
-                  src={restaurantsNYC}
-                  alt="projects"
-                  style={{ width: "18rem", height: "18rem" }}
-                />
-              </a>
-              <a
-                href="https://nostalgic-montalcini-f399dc.netlify.com/"
-                className="btn-light"
-              >
-                <FontAwesomeIcon className="icon0x" icon={["fas", "eye"]} />
-                NYC Restaurants
-              </a>
-              <a
-                href="https://github.com/Yglez/reactPj/tree/master/src/components/toursPage"
-                className="btn-dark"
-              >
-                <i className="fab fa-github">GitHub</i>
-              </a>
-            </div>
-          </div>
+          <Work />
           <h4 className="lg-heading" id="work">
             View{" "}
             <span className="text-info">
