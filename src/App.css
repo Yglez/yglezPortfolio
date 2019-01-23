@@ -288,7 +288,7 @@ span.text-info > a:hover {
   h4.lg-heading {
     font-size: 2rem;
   }
-  h1.lg-heading {
+  .lghead {
     padding: 0;
   }
 }

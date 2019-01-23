@@ -8,7 +8,7 @@ class Home extends Component {
     return (
       <div id="home">
         <div className="sepSec">
-          <h1 className="lg-heading">
+          <h1 className="lg-heading lghead">
             <span className="text-info">Y</span>esenia{" "}
             <span className="text-info">G</span>onza
             <span className="text-info">lez</span>
