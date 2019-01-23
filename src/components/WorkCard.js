@@ -11,7 +11,7 @@ class WorkCard extends Component {
             <img
               src={img}
               className="img-card-top"
-              style={{ height: "18rem" }}
+              style={{ height: "16rem" }}
               alt="projects pic"
             />
             <div className="card-body text-capitalize" />

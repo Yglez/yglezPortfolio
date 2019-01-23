@@ -205,8 +205,8 @@ main#home h1 {
 }
 .sepSec {
   background: rgb(255, 255, 255);
-  padding: 2rem;
-  margin: 1rem 0.3rem 2rem 0.3rem;
+  padding: 0.5rem 0;
+  margin: 1rem 0;
 }
 .card-body {
   padding: 0 !important;
