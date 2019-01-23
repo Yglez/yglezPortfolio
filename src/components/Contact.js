@@ -17,7 +17,7 @@ class Contact extends Component {
                 <FontAwesomeIcon icon={["fab", "twitter"]} />
               </a>
             </div>
-            <div>
+            <div className="sepSecContact">
               <span className="text-info icons">LinkedIn: </span>
               <a
                 className="contactSvg"
@@ -26,7 +26,7 @@ class Contact extends Component {
                 <FontAwesomeIcon icon={["fab", "linkedin"]} />
               </a>
             </div>
-            <div>
+            <div className="sepSecContact">
               <span className="text-info icons">GitHub: </span>
               <a className="contactSvg" href="https://github.com/Yglez">
                 <FontAwesomeIcon icon={["fab", "github"]} />
