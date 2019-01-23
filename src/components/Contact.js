@@ -11,7 +11,7 @@ class Contact extends Component {
           </h1>
           <h2 className="sm-heading">This is how you can reach me...</h2>
           <div className="boxes">
-            <div>
+            <div className="sepSecContact">
               <span className="text-info icons">Twitter: </span>
               <a className="contactSvg" href="https://twitter.com/Yesglez2">
                 <FontAwesomeIcon icon={["fab", "twitter"]} />

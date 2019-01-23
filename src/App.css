@@ -291,4 +291,7 @@ span.text-info > a:hover {
   .lghead {
     padding: 0;
   }
+  .sepSecContact {
+    margin: auto;
+  }
 }

@@ -19,7 +19,6 @@ class Work extends Component {
               return <WorkCard key={data.id} data={data} />;
             })}
           </div>
-          >
         </div>
       </React.Fragment>
     );
