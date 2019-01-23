@@ -6,7 +6,7 @@ class WorkCard extends Component {
     const { projectSite, projectName, img, githubLink } = this.props.data;
     return (
       <React.Fragment>
-        <div className="col-10 mx-auto col-md-6 col-lg-4 my-3">
+        <div className="col-12 mx-auto col-md-6 col-lg-4 my-3">
           <div className="card">
             <img
               src={img}

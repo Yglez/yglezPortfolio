@@ -29,6 +29,13 @@ const workData = [
   },
   {
     id: 4,
+    projectName: "Recipe Box",
+    projectSite: "https://optimistic-heyrovsky-ffa515.netlify.com/",
+    img: "./img/recipes.JPG",
+    githubLink: "https://github.com/Yglez/recipesApp"
+  },
+  {
+    id: 5,
     projectName: "HacktoberFest Contribution",
     projectSite:
       "https://zero-to-mastery.github.io/Halloween-Hacktoberfest/index.html",

@@ -68,6 +68,7 @@ h1.lg-heading,
 h2.lg-heading,
 h3.lg-heading {
   font-size: 6rem;
+  padding: 0 0.5rem;
 }
 h1.sm-heading,
 h2.sm-heading,
@@ -77,6 +78,7 @@ h3.sm-heading {
 }
 h4.lg-heading {
   font-size: 2rem;
+  padding: 0 0.5rem;
 }
 a {
   color: #fff;
@@ -285,5 +287,8 @@ span.text-info > a:hover {
   }
   h4.lg-heading {
     font-size: 2rem;
+  }
+  h1.lg-heading {
+    padding: 0;
   }
 }
